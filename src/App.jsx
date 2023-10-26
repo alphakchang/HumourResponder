@@ -11,6 +11,7 @@ import InputHistory from './components/History/InputHistory/InputHistory';
 import OutputHistory from './components/History/OutputHistory/OutputHistory';
 
 const initialState = {
+  proxy: 'http://localhost:5001',
   prompt: '',
   showAlert: false,
   messages: [
@@ -83,7 +84,8 @@ class App extends Component {
                         />
                         <OutputHistory
                           message={
-                            <ApiCall 
+                            <ApiCall
+                              proxy={this.state.proxy}
                               ref={this.apiCall}
                               prompt={this.state.prompt}
                               messages={this.state.messages}

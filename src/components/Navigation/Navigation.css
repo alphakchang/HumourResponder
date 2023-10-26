@@ -1,0 +1,13 @@
+.nav-item a {
+    padding-left: 1em;
+    padding-right: 1em;
+    color: #414141;
+    transition: 0.1s;
+}
+
+.nav-item a:hover {
+    color: #FFFAF8;
+    /* font-size: 1.2em; */
+    background-color: #0d6efd;
+    border-radius: 15px;
+}

@@ -1,0 +1,10 @@
+.userMessage {
+    font-size: 1rem;
+    font-family: Verdana, 'Trebuchet MS', Helvetica;
+    color: rgb(53, 53, 53);
+    background-color: rgb(166, 166, 238);
+    border-radius: 8px;
+    display: inline-block;
+    padding: 4px 8px; /* Optional: Add padding to create some space around the text */
+    margin: 2px;
+}

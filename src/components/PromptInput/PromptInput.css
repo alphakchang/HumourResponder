@@ -1,0 +1,13 @@
+textarea {
+    resize: none;
+    line-height: 1em;
+}
+
+#promptText {
+    height: 1em;
+}
+
+.send-button {
+    align-self: center;
+}
+

@@ -1,0 +1,5 @@
+.termArea {
+    height: 35vh;
+    background-color: #e5e5e6;
+    overflow: auto;
+}

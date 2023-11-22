@@ -11,7 +11,7 @@ import InputHistory from './components/History/InputHistory/InputHistory';
 import OutputHistory from './components/History/OutputHistory/OutputHistory';
 
 const initialState = {
-  proxy: 'http://localhost:5001',
+  proxy: 'https://naga.alphacrc.com:5001',
   prompt: '',
   showAlert: false,
   messages: [
